@@ -1,0 +1,10 @@
+.Cards {
+    max-width: 120rem;
+    margin: 0 auto;
+    
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: center;
+    justify-items: center;
+}

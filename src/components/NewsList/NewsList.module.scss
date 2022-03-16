@@ -1,0 +1,48 @@
+@import "../../shared/scss/config.scss";
+
+.NewsList {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  .ContentItem_Image {
+    height: 200px;
+  }
+}
+
+.News {
+  max-width: 38rem;
+  width: 100%;
+  margin-bottom: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-family: $header-font;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  .Button {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: CyrveticaBold;
+    src: url(../../assets/fonts/MogulCyrveticaBold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Cyrvetica;
+    src: url(../../assets/fonts/MogulCyrvetica.ttf);
+}
+@font-face {
+    font-family: OptimaBold;
+    src: url(../../assets/fonts/MogulOptimaBold.ttf);
+    font-weight: bold;
+}
+
+$primary-color: rgb(206, 105, 26);
+$secondary-color: rgb(75, 151, 218);
+$color-white: #fff;
+$color-black: #000;
+$color-grey-dark: rgb(48, 56, 68);
+$color-grey-light: rgb(58, 81, 90);
+
+$color-bg-home: rgb(48, 56, 68);
+$color-bg-about: rgb(48, 56, 68);
+$color-bg-product: rgb(205, 153, 68);
+$color-bg-service: rgb(58, 81, 90);
+$color-bg-training: rgb(62, 93, 136);
+$color-bg-kidsclub: rgb(155, 79, 75);
+$color-bg-news: rgb(48, 56, 68);
+
+$content-font: Cyrvetica;
+$header-font: OptimaBold;
+$secondary-font: CyrveticaBold;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+// @mixin transition-ease {
+//     transition: all 0.2s ease-in-out;
+// }
+
+// @function set-text-color($color) {
+//     @if (lightness($color) >  40%) {
+//         @return $color-black;
+//     } @else {
+//         @return $color-white;
+//     }
+// }
+
+// @mixin media-md {
+//     @media screen and (max-width: 768px) {
+//         @content;
+//     }
+// }
+
+// @mixin media-lg {
+//     @media screen and (max-width: 1024px) {
+//         @content;
+//     }
+// }
+
+// @mixin media-xl {
+//     @media screen and (min-width: 1600px) {
+//         @content;
+//     }
+// }

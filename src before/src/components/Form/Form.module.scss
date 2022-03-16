@@ -1,0 +1,53 @@
+@import "../../shared/scss/config.scss";
+
+.Form {
+    max-width: 60rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        // max-width: 50rem;
+        // width: 100%;
+        // margin: 0 auto;
+    }
+
+    h2 {
+        font-family: $header-font;
+        font-size: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    input {
+        height: 2.5rem;
+        font-size: 1.6rem;
+    }
+}
+
+.FormInput {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 60rem;
+    width: 100%;
+
+    label {
+        font-family: $header-font;
+        font-size: 1.6rem;
+        // margin-bottom: 1rem;
+    }
+
+    input {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,68 @@
+@import "/src/shared/scss/config.scss";
+@import "/src/shared/scss/config.scss";
+.Container {
+  width: 95%;
+  margin: auto;
+  min-height: 40rem;
+  height: 100%;
+  width: 100%;
+  background-color: $color-bg-product;
+  padding: 3rem 0;
+}
+.Texter {
+  max-width: 120rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+
+  position: relative;
+
+  img {
+    width: 500px;
+  }
+  .Text1 {
+    text-align: left;
+    width: 500px;
+    h2 {
+      letter-spacing: 4px;
+      word-spacing: 10px;
+    }
+    p {
+      margin-top: 2rem;
+      text-align: justify;
+    }
+  }
+}
+
+.Items {
+  max-width: 120rem;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: relative;
+
+  .item {
+    width: 24rem;
+    height: 40rem;
+    text-align: center;
+
+    h2 {
+      margin-top: 20px;
+      letter-spacing: 2px;
+      word-spacing: 5px;
+    }
+    p {
+      text-align: justify;
+      margin-top: 20px;
+      line-height: 20px;
+    }
+    img {
+      width: 80px;
+    }
+  }
+}

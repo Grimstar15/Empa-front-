@@ -1,0 +1,16 @@
+@import "../../assets/css/grid.module.scss";
+@import "../../components/Sidebar/sidebar.module.scss";
+.layout {
+  color: var(--txt-color);
+  margin-top: 7rem;
+}
+
+.layout__content {
+  padding-left: var(--sidebar-width);
+  background-color: var(--second-bg);
+  min-height: 100vh;
+}
+
+.layout__content_main {
+  padding: 30px;
+}

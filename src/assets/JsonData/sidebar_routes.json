@@ -1,0 +1,22 @@
+[
+  {
+    "display_name": "Dashboard",
+    "route": "/admin",
+    "icon": "bx bx-category-alt"
+  },
+  {
+    "display_name": "Сургалт",
+    "route": "/trainingEdit",
+    "icon": "bx bx-user-pin"
+  },
+  {
+    "display_name": "Нүүр",
+    "route": "/homeEdit",
+    "icon": "bx bx-package"
+  },
+  {
+    "display_name": "Мэдээ",
+    "route": "/newsEdit",
+    "icon": "bx bx-news"
+  }
+]

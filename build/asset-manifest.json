@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90647d04.chunk.css",
+    "main.js": "/static/js/main.ff58e80d.chunk.js",
+    "main.js.map": "/static/js/main.ff58e80d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ddab3138.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ddab3138.js.map",
+    "static/css/2.ec6cae7e.chunk.css": "/static/css/2.ec6cae7e.chunk.css",
+    "static/js/2.1d370bb6.chunk.js": "/static/js/2.1d370bb6.chunk.js",
+    "static/js/2.1d370bb6.chunk.js.map": "/static/js/2.1d370bb6.chunk.js.map",
+    "static/js/3.c61a25ae.chunk.js": "/static/js/3.c61a25ae.chunk.js",
+    "static/js/3.c61a25ae.chunk.js.map": "/static/js/3.c61a25ae.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ec6cae7e.chunk.css.map": "/static/css/2.ec6cae7e.chunk.css.map",
+    "static/css/main.90647d04.chunk.css.map": "/static/css/main.90647d04.chunk.css.map",
+    "static/js/2.1d370bb6.chunk.js.LICENSE.txt": "/static/js/2.1d370bb6.chunk.js.LICENSE.txt",
+    "static/media/grapes.scss": "/static/media/MogulOptimaBold.73ad0f27.ttf",
+    "static/media/empa_logo.ad239f0e.png": "/static/media/empa_logo.ad239f0e.png",
+    "static/media/inspire.62cd97ef.jpg": "/static/media/inspire.62cd97ef.jpg",
+    "static/media/kidsclub.6c237a90.png": "/static/media/kidsclub.6c237a90.png",
+    "static/media/grapes.min.css": "/static/media/main-fonts.dbf9ed7d.woff",
+    "static/media/map.55e9e707.jpg": "/static/media/map.55e9e707.jpg",
+    "static/media/services.d8d1b0ee.png": "/static/media/services.d8d1b0ee.png",
+    "static/media/softwares.60644c9b.png": "/static/media/softwares.60644c9b.png",
+    "static/media/training.a1b99c0c.png": "/static/media/training.a1b99c0c.png",
+    "static/media/womenintech.276b9f55.jpg": "/static/media/womenintech.276b9f55.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddab3138.js",
+    "static/css/2.ec6cae7e.chunk.css",
+    "static/js/2.1d370bb6.chunk.js",
+    "static/css/main.90647d04.chunk.css",
+    "static/js/main.ff58e80d.chunk.js"
+  ]
+}

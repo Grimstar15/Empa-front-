@@ -1,0 +1,16 @@
+@import '../../shared/scss/config.scss';
+
+.News {
+    width: 100%;
+
+    & > h2 {
+        font-family: $header-font;
+        font-size: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        padding: 0 1rem;
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+    }
+}

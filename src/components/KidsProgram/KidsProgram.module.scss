@@ -1,0 +1,57 @@
+@import "../../shared/scss/config.scss";
+
+.Container {
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.HeaderContainer {
+    color: $color-white;
+    background-color: $color-bg-kidsclub;
+    padding: 4rem 0;
+
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+    h2 {
+        font-family: $header-font;
+        font-size: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+}
+
+.ContentContainer {
+    padding: 1rem;
+
+    table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+
+        tr:not(:last-child) {
+            border-bottom: 0.1rem solid $color-black;
+        }
+
+        tr > th:not(:last-child) {
+            border-right: 0.1rem solid $color-black;
+        }
+
+        tr > td:not(:last-child) {
+            border-right: 0.1rem solid $color-black;
+        }
+
+        th, td {
+            width: 14.28%;
+            padding: 1rem 0;
+            font-size: 1.5rem;
+        }
+
+        td {
+            font-size: 1.8rem;
+        }
+    }
+}

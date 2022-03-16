@@ -1,0 +1,14 @@
+.body {
+  margin-top: 7rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 500px) {
+  .body {
+    margin-top: 7rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
